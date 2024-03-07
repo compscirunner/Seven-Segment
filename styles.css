@@ -1,0 +1,65 @@
+#display {
+  width: 100px;
+  height: 160px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.segment {
+  position: absolute;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+#segment-a {
+  width: 80px;
+  height: 20px;
+  top: 0;
+  left: 10px;
+}
+
+#segment-b {
+  width: 20px;
+  height: 60px;
+  top: 20px;
+  right: 0;
+}
+
+#segment-c {
+  width: 20px;
+  height: 60px;
+  top: 80px;
+  right: 0;
+}
+
+#segment-d {
+  width: 80px;
+  height: 20px;
+  bottom: 0;
+  left: 10px;
+}
+
+#segment-e {
+  width: 20px;
+  height: 60px;
+  top: 80px;
+  left: 0;
+}
+
+#segment-f {
+  width: 20px;
+  height: 60px;
+  top: 20px;
+  left: 0;
+}
+
+#segment-g {
+  width: 80px;
+  height: 20px;
+  top: 70px;
+  left: 10px;
+}
+
+.active {
+  background-color: #f00;
+}
